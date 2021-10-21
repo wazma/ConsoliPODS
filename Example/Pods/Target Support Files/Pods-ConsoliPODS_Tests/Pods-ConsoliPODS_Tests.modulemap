@@ -1,0 +1,6 @@
+framework module Pods_ConsoliPODS_Tests {
+  umbrella header "Pods-ConsoliPODS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

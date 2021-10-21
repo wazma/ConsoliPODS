@@ -1,0 +1,6 @@
+framework module ConsoliPODS {
+  umbrella header "ConsoliPODS-umbrella.h"
+
+  export *
+  module * { export * }
+}
