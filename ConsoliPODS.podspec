@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ConsoliPODS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ConsoliPODS.'
+  s.summary          = 'A short description of ConsoliPODS sas.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <'A short description of ConsoliPODS. Kill me pleaseeee'
+  s.description      =  <<-DESC
+  'A short description of ConsoliPODS. Kill me pleaseeee'
                        DESC
 
   s.homepage         = 'https://github.com/wazma/ConsoliPODS'
@@ -25,12 +26,15 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wazma Ali' => 'wazma.ali@consoliads.com' }
   s.source           = { :git => 'https://github.com/wazma/ConsoliPODS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+   s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ConsoliPODS/Classes/**/*'
-  
+  s.platforms={
+    "ios":"10.0"
+}
+ 
   # s.resource_bundles = {
   #   'ConsoliPODS' => ['ConsoliPODS/Assets/*.png']
   # }
